@@ -16,9 +16,9 @@ My learning assignments
 4. find the square root of given number ( [solution](day2/squareroot.c) )
 
 ## Day3
-1. Print if given number is even/odd. ( [solution](day3/evenodd.c) ]
-2. Find the greatest of given two numbers. ( [solution](day3/greater.c) ]
-3. A candy store owner decided to offer free chocolates to kids. He plans to give chocolates based on kid's shirt size as per table below.  Write a program to print the number of chocolates to kid gets given his shirt size. ([solution](size_and_chocos.c))
+1. Print if given number is even/odd. ( [solution](day3/evenodd.c) )
+2. Find the greatest of given two numbers. ( [solution](day3/greater.c) )
+3. A candy store owner decided to offer free chocolates to kids. He plans to give chocolates based on kid's shirt size as per table below.  Write a program to print the number of chocolates to kid gets given his shirt size. ([solution](day3/size_and_chocos.c))
 
 | shirt size | no. of chocolates |
 |------------|-------------------
@@ -35,8 +35,8 @@ My learning assignments
 
 ## Day5
 1. print all factors of given number. ([solution](day5/factors.c))
-2. print if given number is prime or not. ([solution](day5/prime.c), [solution using break](day55/prime_using_break.c))
-3. print the following pattern. ([solution](day5/pattern.c)]
+2. print if given number is prime or not. ([solution](day5/prime.c), [solution using break](day5/prime_using_break.c))
+3. print the following pattern. ([solution](day5/pattern.c))
 ```
 *
 **
