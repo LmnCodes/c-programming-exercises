@@ -4,35 +4,25 @@ int main(){
 	
 	int rows;
 	int stars;
-	int x;
-	int y;
-	int row;
-	int spaces;
 	
-	row=1;
 	rows=9;
 	stars=1;
-	spaces=rows-1;
-	y=1;
 	
-	while (row<=rows) {
-	  x=1;
-	  y=1;
+	const int last_row = 2*rows-1;
+	
+	for (int row=1; row<=rows; row=row+1) {
 	  
-	  while (x<=spaces){
+	  for (int i=1; i<= (last_row-stars)/2; i=i+1){
 	    printf (" ");
-	    x=x+1;
 	  }
-	  spaces=spaces-1;
-	  
-	  while (y<=stars){
+
+	  for (int i=1; i<=stars; i=i+1){
 	    printf ("*");
-	    y=y+1;
 	  }
+	  
 	  stars=stars+2;
 	  printf ("\n");
-	  row=row+1;
-    }
+    }    
 } 
 	  
 	
